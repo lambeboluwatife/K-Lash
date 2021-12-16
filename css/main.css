@@ -172,6 +172,10 @@ img {
   justify-self: flex-end;
 }
 
+.collections-head h1 {
+  font-size: 60px;
+}
+
 /* Footer */
 .footer {
   background: #000;
@@ -191,7 +195,8 @@ img {
 @media (max-width: 768px) {
   .grid,
   .showcase .grid,
-  .collections .grid {
+  .collections .grid,
+  .collections-head .grid {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
@@ -237,6 +242,7 @@ img {
   .navbar ul {
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.1);
+    font-size: 12px;
   }
 
   .motto {

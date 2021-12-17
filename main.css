@@ -52,6 +52,7 @@ img {
 .motto {
   display: none;
   font-size: 10px;
+  text-align: center;
 }
 
 /* Navbar */
@@ -253,6 +254,7 @@ img {
 
   .motto {
     display: block;
+    text-align: center;
   }
 
   .showcase {
